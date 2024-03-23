@@ -133,8 +133,7 @@ sumup : We just learned All types operator and how they works .thats it <br>
 
 
      Know The Js operator < End >///
-
-
+=========================================================
 
      Know The Js Mathematical Operation Shorthand < start >///
 
@@ -173,6 +172,7 @@ sumup: we have learned all the shortcut of operators
 
      Know The Js Mathematical Operation Shorthand < End >///
      
+=========================================================
 
      Know The Js Concatination < start >///
 
@@ -223,3 +223,4 @@ console.log( y + z + x); // output : 204040 , ekane 20then 40 40 pase bose gese.
 sumup: we have learned Different way of concatination
 
       Know The Js Concatination < End >///
+=========================================================
