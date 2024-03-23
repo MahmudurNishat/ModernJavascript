@@ -133,3 +133,93 @@ sumup : We just learned All types operator and how they works .thats it <br>
 
 
      Know The Js operator < End >///
+
+
+
+     Know The Js Mathematical Operation Shorthand < start >///
+
+        
+/** <br>
+ * * + ------ addition 
+ * * - ------ subtraction
+ * * * ------ Mulitiplication
+ * * / ------ Divide
+ * * % ------ Modulas
+ * * ** ------ exponential 
+ * 
+ */ <br>
+
+var x = 50; <br>
+x = x + 60; // x value 110 <br>
+var y = 60; <br>
+console.log(x+y) // output : 170;<br>
+
+var x = 50;<br>
+x += 60; // x = x + 60; <br>
+var y = 60;<br>
+console.log(x+y) // output : 170;<br>
+
+var x = 50;<br>
+x -= 60; // x = x - 60; <br>
+var y = 60;<br>
+console.log(x+y) // output : 50;<br>
+
+var orangePrice = 30;<br>
+orangePrice *= 3 // orangePrice = orangePrice *3;<br>
+console.log(orangePrice);<br>
+
+sumup: we have learned all the shortcut of operators
+
+
+     Know The Js Mathematical Operation Shorthand < End >///
+     
+
+     Know The Js Concatination < start >///
+
+var x = "Mahmudur" <br>
+var y = "Nishat" <br> 
+console.log(x + y);  // output : MahmudurNishat <br>
+
+var x = "Mahmudur" <br>
+var y = "Nishat" <br>
+console.log(x +" "+ y); // output : Mahmudur Nishat // use empty string to make gap between string <br>
+
+var x = "40"<br>
+var y = 20<br>
+console.log(x + y);  // output : 4020 // but concat will only work in addition , rest of the operator dont<br> follow the rules.<br>
+
+
+var x = "40"<br>
+var y = 20<br>
+console.log(x - y); // output : 20<br>
+
+var x = "40"<br>
+var y = 20<br>
+console.log(x / y); // output : 2<br>
+
+var x = "40"<br>
+var y = 20<br>
+console.log(x % y); // output : 0<br>
+
+var x = "40"<br>
+var y = 20<br>
+console.log(x ** y); // output : 1.099511627776e+32<br>
+
+var x = "40"<br>
+var y = 20<br>
+var z = 40<br>
+console.log(x + y + z); // output : 402040<br>
+
+var x = "40"<br>
+var y = 20<br>
+var z = 40<br>
+console.log( y + z + x); // output : 6040 , ekane aage addition y and z jog kore then 40passe bosce <br>
+
+var x = "40"<br>
+var y = 20<br>
+var z = "40"<br>
+console.log( y + z + x); // output : 204040 , ekane 20then 40 40 pase bose gese.<br>   
+
+sumup: we have learned Different way of concatination
+
+      Know The Js Concatination < End >///
