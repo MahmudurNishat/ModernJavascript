@@ -86,46 +86,50 @@ sumup : if u want to convert any string ("Number") to intiger use parseInt
 
 
 var x = 40;
+<br>
 var y = 20;
+<br>
 var p = 11;
+<br>
 var q = 7
-console.log(y+x); // Additional operator : output : 60
+<br>
+console.log(y+x); // Additional operator : output : 60 <br>
 
-console.log(y-x); // substracion operator : output : -20
+console.log(y-x); // substracion operator : output : -20 <br>
 
-console.log(x*y); // Multifly  : output : 800
+console.log(x*y); // Multifly  : output : 800 <br>
 
-console.log(x/y); // divide : output : 2
+console.log(x/y); // divide : output : 2 <br>
 
-console.log(x % y);// modulas/reminder/moduleOperator // output : 0  (40 ke (20 dea bag) kore bagses mane modulas ki thake  0 )
+console.log(x % y);// modulas/reminder/moduleOperator // output : 0  (40 ke (20 dea bag) kore bagses mane <br>modulas ki thake  0 )<br>
 
-console.log(y % x); // output : 20 , 20 ke (40 dea bag) kore bagses mane modulas ki thake 20
+console.log(y % x); // output : 20 , 20 ke (40 dea bag) kore bagses mane modulas ki thake 20 <br>
 
-console.log(p / q ); // output : 1.5714285714285714
+console.log(p / q ); // output : 1.5714285714285714 <br>
 
-console.log(parseFloat((p/q).toFixed(2))); // use tofixed and parsefloat output : 1.57
+console.log(parseFloat((p/q).toFixed(2))); // use tofixed and parsefloat output : 1.57 <br>
 
-console.log( p % q); // 11 ke 7 dea bag korle (bagses thake 4) ;
+console.log( p % q); // 11 ke 7 dea bag korle (bagses thake 4) ; <br>
 
-var money = 45;
-var money = 55 // assining value to 55 (never use this line )
-money = 550; /// reassign  value ; when reassing never use again var
-console.log(money) output : 550
+var money = 45; <br>
+var money = 55 // assining value to 55 (never use this line ) <br>
+money = 550; /// reassign  value ; when reassing never use again var <br>
+console.log(money) output : 550 <br>
 
 
 var price = 1250;
 price = price + 100; // now its called dynamic  , cause sudu tomar varible value change korlei noton price 
 console.log(price)  output : 1350
 
-var price = 1250;
-price = price + 100; // now its called dynamic  , cause sudu tomar varible value change korlei noton price 
-console.log(price) 
-var newPrice = price + 40;
-var discountedPrice = newPrice -10;
-console.log(discountedPrice) output : 1380
+var price = 1250; <br>
+price = price + 100; // now its called dynamic  , cause sudu tomar varible value change korlei noton price <br>
+console.log(price)  <br>
+var newPrice = price + 40; <br>
+var discountedPrice = newPrice -10; <br>
+console.log(discountedPrice) output : 1380 <br>
 
 
-sumup : We just learned All types operator and how they works .thats it
+sumup : We just learned All types operator and how they works .thats it <br>
 
 
      Know The Js operator < End >///
