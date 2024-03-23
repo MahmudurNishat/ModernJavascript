@@ -1,5 +1,5 @@
-=====================================================================
-/// Know The Fundamentals Of JS Numbers < Start >///
+
+     Know The Fundamentals Of JS Numbers < Start >///
 =====================================================================
 var x = 45;
 var y = 20;
@@ -79,6 +79,5 @@ sumup : if u want to convert any string ("Number") to intiger use parseInt
         if u want to convert any string ("Number") to float use parseFloat 
         if u want 2fractional value after number use .toFixed (1to20) result string , use parsefloat
 
-=====================================================================
-/// Know The Fundamentals Of JS Numbers < End >///
+     Know The Fundamentals Of JS Numbers < End >///
 =====================================================================
