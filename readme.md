@@ -1,6 +1,15 @@
 
      Know The Fundamentals Of JS Numbers < Start >///
 
+     Javascript
+
+     is high level and Intrepreted 
+     Dynamically Update content
+     controll multimedia
+     Animate images
+     jit compiled
+     is life of internet
+
 var x = 45;
 var y = 20;
 console.log( x+ y); // output 65
@@ -224,3 +233,97 @@ sumup: we have learned Different way of concatination
 
       Know The Js Concatination < End >///
 =========================================================
+
+      Complete all task  < start >///
+======================================
+      
+      Task1
+      You went to the supermarket to buy some oranges and apples. Calculate how much money the shopkeeper will return.
+
+Input: <br>
+The first line of the input is the taka you have. The second line is the cost of 1 kg of oranges and 1 kg of apples.<br>
+
+Output:<br>
+Print the result.<br>
+
+Sample Input:<br>
+1000<br>
+700<br>
+
+Sample Output:<br>
+300<br>
+
+solve: <br>
+
+// Task 1 //<br>
+var Wallet = 1000;<br>
+var orange = 400;<br>
+var apple = 300;<br>
+var cost = orange + apple;<br>
+var returns = Wallet - cost;<br>
+console.log(returns); // output : 700<br>
+
+     Task2
+     Write a program to calculate the average marks of Mathematics, Biology, Chemistry, Physics, and Bangla of a student.
+Input:<br>
+The first line of the input is the marks of the five subjects mentioned above, respectively.<br>
+
+Output:<br>
+Print the result in 2 decimal places.<br>
+
+Sample Input:<br>
+75.25, 65, 80, 35.45, 99.50<br>
+
+Sample Output:<br>
+71.04<br>
+
+// Task 2 //<br>
+var Math = 75.25;<br>
+var Bio = 65;<br>
+var chem = 80;<br>
+var phy = 35.45;<br>
+var Ban = 99.50<br>
+
+var TotalMark = Math + Bio + chem + phy + Ban ;<br>
+var averages = TotalMark / 5<br>
+console.log(parseFloat(averages.toFixed(2))) // output : 71.04<br>
+
+      Task-3
+      You task is to divide the given number by 5 and show the remainder as the output.
+     
+Input:<br>
+The first line of the input contains the number.<br>
+
+Output:<br>
+Print the remainder.<br>
+
+Sample Input:<br>
+119<br>
+
+Sample Output:<br>
+4<br>
+
+/// Task 3  ///<br>
+var x = 119;<br>
+var y = 119 % 5;<br>
+console.log(y); // output  :4<br>
+
+
+      Task-4
+      What will be the result of the following codes:
+var a = isNaN(‘11’);<br>
+
+var a = isNaN(2-10);<br>
+
+Explain your answers.<br>
+
+
+/// task4 ////<br>
+const a = isNaN("11") //it can be possible to 11string  to number thats why its a number <br>
+console.log(a) // output : false<br>
+
+const b = isNaN(2-10) // number : -8<br>
+console.log(b) // output : false<br>
+
+
+      Complete all task  < start >///
